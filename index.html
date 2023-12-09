@@ -70,7 +70,7 @@
                       <span class="author-block">
                         <a href="https://yijunmaverick.github.io/" target="_blank">Yijun Li</a><sup>3</sup>,</span>
                         <span class="author-block">
-                        <a href="https://www.yingcong.me/" target="_blank">Ying-Cong Chen</a><sup>1,2</sup>
+                        <a href="https://www.yingcong.me/" target="_blank">Ying-Cong Chen</a><sup>1,2,&dagger;</sup>
                   </span>
                   </div>
 
@@ -180,7 +180,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <h2 class="subtitle has-text-centered">
-        <strong style="font-size: 32px;">Challenges in Multi-Condition Image Synthesis.</strong><br> 
+        <strong style="font-size: 28px;">Challenges in Multi-Condition Image Synthesis.</strong><br> 
       </h2>
       <h2 class="subtitle has-text-left">
         Left: the "<strong>dominance</strong>" effect exists across various methods, where one object (e.g., car) overshadows the generation, omitting the other (e.g., dog). Right: The "<strong>ambiguity</strong>" issue, where it's unclear which object from the text matches the intended depth condition.
@@ -198,7 +198,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <h2 class="subtitle has-text-centered">
-        <strong style="font-size: 32px;">Comparisons of “Dominance” Challenge.</strong><br> 
+        <strong style="font-size: 28px;">Comparisons of “Dominance” Challenge.</strong><br> 
       </h2>
       <h2 class="subtitle has-text-left">
         D&R ensures that objects in the text, not linked to additional conditions, are still accurately generated (e.g., "tiger" in the first example).
@@ -209,6 +209,38 @@
 </section>
 <!-- End Dominance Image -->
 
+
+<!-- Ambiguity Image-->
+<section class="hero is-light">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <strong style="font-size: 28px;">Comparisons of "Ambiguity" Challenge.</strong><br> 
+      </h2>
+      <h2 class="subtitle has-text-left">
+        D&R accurately maps specific words in the text (e.g., "orange cat" in the last row) to the corresponding additional conditions ("normal map")
+      </h2>
+      <img src="static/images/ambiguity.png" alt="MY ALT TEXT"/>
+    </div>
+  </div>
+</section>
+<!-- End Ambiguity Image -->
+
+
+<!--application Image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <strong style="font-size: 28px;">Complex Application Ccenarios.</strong><br> 
+      </h2>
+      <h2 class="subtitle has-text-left">
+        Demonstrating scalability, our method adeptly manages complex scenes, seamlessly integrating with a variety of controller mechanisms, including both ControlNet and GLIGEN.
+      </h2>
+      <img src="static/images/applications.png" alt="MY ALT TEXT"/>
+    </div>
+  </div>
+</section>
 
 
 
